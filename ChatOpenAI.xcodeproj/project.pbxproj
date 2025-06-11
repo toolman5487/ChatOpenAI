@@ -6,6 +6,26 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		15529F2F2DF9C33500EF3F11 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15529F2E2DF9C33500EF3F11 /* ChatViewController.swift */; };
+		15529F322DF9C36B00EF3F11 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 15529F312DF9C36B00EF3F11 /* Alamofire */; };
+		15529F352DF9C37A00EF3F11 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 15529F342DF9C37A00EF3F11 /* SnapKit */; };
+		15529F382DF9C38B00EF3F11 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 15529F372DF9C38B00EF3F11 /* Lottie */; };
+		15529F3C2DF9C3F200EF3F11 /* APIConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15529F3B2DF9C3F200EF3F11 /* APIConfiguration.swift */; };
+		15529F3F2DF9C42500EF3F11 /* ChatMessageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15529F3E2DF9C42500EF3F11 /* ChatMessageModel.swift */; };
+		15529F412DF9C44000EF3F11 /* ChatRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15529F402DF9C44000EF3F11 /* ChatRequestModel.swift */; };
+		15529F432DF9C45500EF3F11 /* ChatResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15529F422DF9C45500EF3F11 /* ChatResponseModel.swift */; };
+		15529F452DF9C47400EF3F11 /* ChatRoomModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15529F442DF9C47400EF3F11 /* ChatRoomModel.swift */; };
+		15529F472DF9C49400EF3F11 /* ChatAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15529F462DF9C49400EF3F11 /* ChatAPIService.swift */; };
+		15529F492DF9C4BE00EF3F11 /* ChatViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15529F482DF9C4BE00EF3F11 /* ChatViewModel.swift */; };
+		15529F4C2DF9C4F000EF3F11 /* ChatRoomManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15529F4B2DF9C4F000EF3F11 /* ChatRoomManager.swift */; };
+		15529F4E2DF9C53F00EF3F11 /* loadingPoint.json in Resources */ = {isa = PBXBuildFile; fileRef = 15529F4D2DF9C53F00EF3F11 /* loadingPoint.json */; };
+		15529F4F2DF9C53F00EF3F11 /* loadingPoint.json in Resources */ = {isa = PBXBuildFile; fileRef = 15529F4D2DF9C53F00EF3F11 /* loadingPoint.json */; };
+		15529F512DF9C56A00EF3F11 /* ChatInputBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15529F502DF9C56A00EF3F11 /* ChatInputBarView.swift */; };
+		15529F542DF9C5A400EF3F11 /* ChatMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15529F532DF9C5A400EF3F11 /* ChatMessageCell.swift */; };
+		15529F562DF9C5CE00EF3F11 /* ChatRoomListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15529F552DF9C5CE00EF3F11 /* ChatRoomListViewController.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		15529EF72DF9C19F00EF3F11 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +47,19 @@
 		15529EDD2DF9C19D00EF3F11 /* ChatOpenAI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatOpenAI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		15529EF62DF9C19F00EF3F11 /* ChatOpenAITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChatOpenAITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		15529F002DF9C19F00EF3F11 /* ChatOpenAIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChatOpenAIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		15529F2E2DF9C33500EF3F11 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		15529F3B2DF9C3F200EF3F11 /* APIConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConfiguration.swift; sourceTree = "<group>"; };
+		15529F3E2DF9C42500EF3F11 /* ChatMessageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatMessageModel.swift; sourceTree = "<group>"; };
+		15529F402DF9C44000EF3F11 /* ChatRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatRequestModel.swift; sourceTree = "<group>"; };
+		15529F422DF9C45500EF3F11 /* ChatResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatResponseModel.swift; sourceTree = "<group>"; };
+		15529F442DF9C47400EF3F11 /* ChatRoomModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatRoomModel.swift; sourceTree = "<group>"; };
+		15529F462DF9C49400EF3F11 /* ChatAPIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatAPIService.swift; sourceTree = "<group>"; };
+		15529F482DF9C4BE00EF3F11 /* ChatViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewModel.swift; sourceTree = "<group>"; };
+		15529F4B2DF9C4F000EF3F11 /* ChatRoomManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatRoomManager.swift; sourceTree = "<group>"; };
+		15529F4D2DF9C53F00EF3F11 /* loadingPoint.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = loadingPoint.json; sourceTree = "<group>"; };
+		15529F502DF9C56A00EF3F11 /* ChatInputBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatInputBarView.swift; sourceTree = "<group>"; };
+		15529F532DF9C5A400EF3F11 /* ChatMessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatMessageCell.swift; sourceTree = "<group>"; };
+		15529F552DF9C5CE00EF3F11 /* ChatRoomListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatRoomListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -65,6 +98,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15529F322DF9C36B00EF3F11 /* Alamofire in Frameworks */,
+				15529F352DF9C37A00EF3F11 /* SnapKit in Frameworks */,
+				15529F382DF9C38B00EF3F11 /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +124,12 @@
 		15529ED42DF9C19D00EF3F11 = {
 			isa = PBXGroup;
 			children = (
+				15529F3A2DF9C3D700EF3F11 /* Animations */,
+				15529F392DF9C3CB00EF3F11 /* Managers */,
+				15529F2D2DF9C31600EF3F11 /* Services */,
+				15529F2C2DF9C30F00EF3F11 /* ViewModels */,
+				15529F2B2DF9C30B00EF3F11 /* Models */,
+				15529F2A2DF9C30200EF3F11 /* Views */,
 				15529EDF2DF9C19D00EF3F11 /* ChatOpenAI */,
 				15529EF92DF9C19F00EF3F11 /* ChatOpenAITests */,
 				15529F032DF9C19F00EF3F11 /* ChatOpenAIUITests */,
@@ -103,6 +145,85 @@
 				15529F002DF9C19F00EF3F11 /* ChatOpenAIUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		15529F2A2DF9C30200EF3F11 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				15529F522DF9C58F00EF3F11 /* ChatView */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		15529F2B2DF9C30B00EF3F11 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				15529F3D2DF9C40900EF3F11 /* ChatModels */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		15529F2C2DF9C30F00EF3F11 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				15529F482DF9C4BE00EF3F11 /* ChatViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		15529F2D2DF9C31600EF3F11 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				15529F3B2DF9C3F200EF3F11 /* APIConfiguration.swift */,
+				15529F462DF9C49400EF3F11 /* ChatAPIService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		15529F392DF9C3CB00EF3F11 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				15529F4A2DF9C4E400EF3F11 /* ChatRoomManager */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		15529F3A2DF9C3D700EF3F11 /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				15529F4D2DF9C53F00EF3F11 /* loadingPoint.json */,
+			);
+			path = Animations;
+			sourceTree = "<group>";
+		};
+		15529F3D2DF9C40900EF3F11 /* ChatModels */ = {
+			isa = PBXGroup;
+			children = (
+				15529F3E2DF9C42500EF3F11 /* ChatMessageModel.swift */,
+				15529F402DF9C44000EF3F11 /* ChatRequestModel.swift */,
+				15529F422DF9C45500EF3F11 /* ChatResponseModel.swift */,
+				15529F442DF9C47400EF3F11 /* ChatRoomModel.swift */,
+			);
+			path = ChatModels;
+			sourceTree = "<group>";
+		};
+		15529F4A2DF9C4E400EF3F11 /* ChatRoomManager */ = {
+			isa = PBXGroup;
+			children = (
+				15529F4B2DF9C4F000EF3F11 /* ChatRoomManager.swift */,
+			);
+			path = ChatRoomManager;
+			sourceTree = "<group>";
+		};
+		15529F522DF9C58F00EF3F11 /* ChatView */ = {
+			isa = PBXGroup;
+			children = (
+				15529F2E2DF9C33500EF3F11 /* ChatViewController.swift */,
+				15529F502DF9C56A00EF3F11 /* ChatInputBarView.swift */,
+				15529F532DF9C5A400EF3F11 /* ChatMessageCell.swift */,
+				15529F552DF9C5CE00EF3F11 /* ChatRoomListViewController.swift */,
+			);
+			path = ChatView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +246,9 @@
 			);
 			name = ChatOpenAI;
 			packageProductDependencies = (
+				15529F312DF9C36B00EF3F11 /* Alamofire */,
+				15529F342DF9C37A00EF3F11 /* SnapKit */,
+				15529F372DF9C38B00EF3F11 /* Lottie */,
 			);
 			productName = ChatOpenAI;
 			productReference = 15529EDD2DF9C19D00EF3F11 /* ChatOpenAI.app */;
@@ -208,6 +332,11 @@
 			);
 			mainGroup = 15529ED42DF9C19D00EF3F11;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				15529F302DF9C36B00EF3F11 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				15529F332DF9C37A00EF3F11 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				15529F362DF9C38B00EF3F11 /* XCRemoteSwiftPackageReference "lottie-ios" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 15529EDE2DF9C19D00EF3F11 /* Products */;
 			projectDirPath = "";
@@ -225,6 +354,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15529F4E2DF9C53F00EF3F11 /* loadingPoint.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,6 +369,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15529F4F2DF9C53F00EF3F11 /* loadingPoint.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +380,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15529F412DF9C44000EF3F11 /* ChatRequestModel.swift in Sources */,
+				15529F432DF9C45500EF3F11 /* ChatResponseModel.swift in Sources */,
+				15529F4C2DF9C4F000EF3F11 /* ChatRoomManager.swift in Sources */,
+				15529F542DF9C5A400EF3F11 /* ChatMessageCell.swift in Sources */,
+				15529F512DF9C56A00EF3F11 /* ChatInputBarView.swift in Sources */,
+				15529F3C2DF9C3F200EF3F11 /* APIConfiguration.swift in Sources */,
+				15529F452DF9C47400EF3F11 /* ChatRoomModel.swift in Sources */,
+				15529F2F2DF9C33500EF3F11 /* ChatViewController.swift in Sources */,
+				15529F562DF9C5CE00EF3F11 /* ChatRoomListViewController.swift in Sources */,
+				15529F472DF9C49400EF3F11 /* ChatAPIService.swift in Sources */,
+				15529F492DF9C4BE00EF3F11 /* ChatViewModel.swift in Sources */,
+				15529F3F2DF9C42500EF3F11 /* ChatMessageModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,7 +437,6 @@
 				INFOPLIST_FILE = ChatOpenAI/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -322,7 +464,6 @@
 				INFOPLIST_FILE = ChatOpenAI/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -571,6 +712,51 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		15529F302DF9C36B00EF3F11 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.10.2;
+			};
+		};
+		15529F332DF9C37A00EF3F11 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.1;
+			};
+		};
+		15529F362DF9C38B00EF3F11 /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.5.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		15529F312DF9C36B00EF3F11 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 15529F302DF9C36B00EF3F11 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		15529F342DF9C37A00EF3F11 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 15529F332DF9C37A00EF3F11 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		15529F372DF9C38B00EF3F11 /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 15529F362DF9C38B00EF3F11 /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 15529ED52DF9C19D00EF3F11 /* Project object */;
 }
